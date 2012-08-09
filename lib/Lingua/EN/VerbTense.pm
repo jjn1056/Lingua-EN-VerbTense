@@ -1405,7 +1405,7 @@ Altoona, WI 54720
 Edited and enhanced by Josiah Bryan
 jdb@wcoil.com
 
-Repackaged by John Napiorkowski C<jjnapiork@cpan.org>
+Repackaged by John Napiorkowski jjnapiork@cpan.org
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
