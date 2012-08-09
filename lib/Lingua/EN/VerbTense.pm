@@ -57,7 +57,7 @@ qw(verb verb_tense sFormPartInf sInfPartForm sIsModal sIsInfinitive sIsThird sIs
 
 @EXPORT = qw(verb_tense);
 
-$VERSION = '3.01';
+$VERSION = '3.002';
 
 use strict;    
 
