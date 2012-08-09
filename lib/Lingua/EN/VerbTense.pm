@@ -57,7 +57,7 @@ qw(verb verb_tense sFormPartInf sInfPartForm sIsModal sIsInfinitive sIsThird sIs
 
 @EXPORT = qw(verb_tense);
 
-$VERSION = '3.00';
+$VERSION = '3.01';
 
 use strict;    
 
@@ -1402,8 +1402,7 @@ chris@mytechs.com
 1143 5th Street East
 Altoona, WI 54720
 
-Edited and enhanced by Josiah Bryan
-jdb@wcoil.com
+Edited and enhanced by Josiah Bryan jbryan@cpan.org>
 
 Repackaged by John Napiorkowski jjnapiork@cpan.org
 

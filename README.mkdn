@@ -195,8 +195,7 @@ chris@mytechs.com
 Altoona, WI 54720
 
 
-Edited and enhanced by Josiah Bryan
-jdb@wcoil.com
+Edited and enhanced by Josiah Bryan jbryan@cpan.org>
 
 
 Repackaged by John Napiorkowski jjnapiork@cpan.org
