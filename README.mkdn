@@ -1,11 +1,8 @@
 # NAME
 
-
 Linga::EN::VerbTense - Parses verb structures into modal, tense, & infinitive.
 
-
 # SYNOPSIS
-
 
 	use Lingua::EN::VerbTense;
 	
@@ -27,9 +24,7 @@ Linga::EN::VerbTense - Parses verb structures into modal, tense, & infinitive.
 	# Gives:
 	#   $modality='Subjective Ability', $tense='Perfect', $inf='do'
 
-
 # DESCRIPTION	
-
 
 This is a simple Perl module designed to parse english verb structures
 using a finite state machine into the verb tense and infinitive, as well
@@ -37,13 +32,10 @@ as the type of infinitive in the structure. This was originally written
 by Chris Meyer <chris@mytechs.com>. Josiah Byran <jdb@wcoil.com> added
 multiple tweaks and twists, POD docs, and CPAN packaging.
 
-
 # EXPORTS
-
 
 Exported by default:
 	verb\_tense
-
 
 Tags:
 	all =>
@@ -70,7 +62,6 @@ Tags:
 		sIsGerund 
 		sIsPart
 
-
 OK for export:
 	verb 
 	verb\_tense 
@@ -83,22 +74,16 @@ OK for export:
 	sIsGerund 
 	sIsPart		
 
-
 # FUNCTIONS
 
-
 - verb\_tense($string);
-
 
 Parses a string and returns a three element list containg info about the first verb 
 in the string. Example:
 
-
 	($modal, $tense, $inf) = verb_tense('How could she do that???');
 
-
 After that call, the variables will be set to:
-
 
 	$modality='Subjective Ability';
 	$tense='Perfect';
@@ -106,15 +91,11 @@ After that call, the variables will be set to:
 
 
 
-
 - verb($infinitive,$third,$past,$part,$gerund);
-
 
 This allows addition of your own custom verbs to the verb hash internally. 
 
-
 - sFormPartInf($verb,$type);
-
 
 Tanslates the verb $verb which is of type $type into the infitive for that
 verb. $type must be one of the following:
@@ -123,16 +104,12 @@ verb. $type must be one of the following:
 	Third
 	Past
 
-
 Example:
 	$string = sFormPart("going","Gerund") 
 
-
 Returns "go".
 
-
 - sInfPartForm($verb,$type);
-
 
 Translates infinitive $verb to type $type. $type must be one of the 
 following:
@@ -141,34 +118,23 @@ following:
 	Third
 	Past
 
-
 Example:
 	$string = sInfPartForm("go","Gerund");
 
-
 Returns "going".
 
-
 - sIsModal($verb);
-
 - sIsInfinitive($verb);
-
 - sIsThird($verb);
-
 - sIsPast($verb);
-
 - sIsGerund($verb); 
-
 - sIsPart($verb);
-
 
 Each of these functions tests for its namesake. E.g. sIsModal($verb) tests if $verb
 is a modal. If $verb is a modal, it returns "Modal", else it returns "" (not undef.) 
 The same logic follows for the other five functions.
 
-
 # EXAMPLE
-
 
     use Lingua::EN::VerbTense;
 	
@@ -181,33 +147,25 @@ The same logic follows for the other five functions.
 		print "modality = $Modality, tense = $Tense, inf = $Inf\n: ";
 	}
 
-
 This example allows you to enter a string to parse and it displays
 the results of the parse. Type 'q' to quit the loop.
 
-
 # AUTHOR
-
 
 Copyright (C) 2000 Chris Meyer
 chris@mytechs.com
 1143 5th Street East
 Altoona, WI 54720
 
-
 Edited and enhanced by Josiah Bryan jbryan@cpan.org>
 
-
 Repackaged by John Napiorkowski jjnapiork@cpan.org
-
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
 as published by the Free Software Foundation.
 
-
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
-
