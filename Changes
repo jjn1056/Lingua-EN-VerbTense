@@ -1,13 +1,19 @@
-Revision history for Perl extension Lingua::EN::ParseVerb
+Revision history for Perl extension Lingua::EN::VerbTense
 
-3.003 Mon Aug 13 16.17:00 2012
+3.004 2017-11-?? JJNAPIORK
+    - Corrected name in header of Changes file
+    - Updated format of Changes to follow CPAN::Changes::Spec,
+      fixing one incorrect version number in the process
+    - Added [MetaJSON] to dist.ini, so releases will include META.json
+
+3.003 2012-08-13 JJNAPIORK
     - Fixed changes file
     - be sure everything is unix format
 
-3.002 Thu Aug 09 15:39:00 2012
+3.002 2012-08-09 JJNAPIORK
     - fixed borked dist
 
-3.01  Thu Aug 09 15:39:00 2012
+3.001 2012-08-09 JJNAPIORK
     - New maintainer.
     - Modernized the package and distribution layout to follow
       contemporary standards
@@ -16,6 +22,6 @@ Revision history for Perl extension Lingua::EN::ParseVerb
     - Created a git repository
     - converted to Dist::Zilla for distribution lifecycle
 
-3.00  Thu Sep 28 21:12:30 2000
+3.00 2000-09-28 JBRYAN
 	- original CPAN version; created by Josiah Bryan
 
