@@ -4,6 +4,7 @@ Revision history for Perl extension Lingua::EN::VerbTense
     - Corrected name in header of Changes file
     - Updated format of Changes to follow CPAN::Changes::Spec,
       fixing one incorrect version number in the process
+    - Added [MetaJSON] to dist.ini, so releases will include META.json
 
 3.003 2012-08-13 JJNAPIORK
     - Fixed changes file
