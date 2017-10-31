@@ -1,4 +1,7 @@
-Revision history for Perl extension Lingua::EN::ParseVerb
+Revision history for Perl extension Lingua::EN::VerbTense
+
+3.004 2017-11-?? JJNAPIORK
+    - Corrected name in header of Changes file
 
 3.003 Mon Aug 13 16.17:00 2012
     - Fixed changes file
